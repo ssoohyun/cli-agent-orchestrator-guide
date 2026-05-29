@@ -264,7 +264,8 @@ grep "developer" ~/.cao/logs/latest.log
 tail -f ~/.cao/logs/latest.log
 ```
 
-> 로그 파일 경로는 CAO 설정에 따라 다를 수 있다. `cao --help`로 로그 관련 옵션을 확인한다.
+> 로그 파일 경로는 CAO 설정에 따라 다를 수 있다. `cao --help`로 로그 관련 옵션을 확인한다.  
+> 나의 경우: ~/.aws/cli-agent-orchestrator/logs
 
 ## 검증
 
