@@ -66,6 +66,16 @@ cao launch code_supervisor --provider kiro
 cao launch developer --provider kiro
 ```
 
+> `Error: Missing option '--agents'.` 에러가 발생하면 다음 명령어로 실행한다.
+
+기본 provider는 kiro_cli이므로 명시 안하면 kiro_cli로 실행된다.  
+클로드로 하려면 `--provider claude_code`라고 붙여주면 된다.
+
+```bash
+cao launch --agents code_supervisor
+cao launch --agents developer
+```
+
 Handoff 모드로 작업을 전달한다:
 
 ```bash
