@@ -34,6 +34,12 @@ uv tool install 명령어를 사용하여 CAO를 설치한다:
 uv tool install git+https://github.com/awslabs/cli-agent-orchestrator.git@main --upgrade
 ```
 
+> UI가 포함된 CAO를 설치할 수도 있다. (PyPI 버전)
+
+```bash
+uv tool install cli-agent-orchestrator --upgrade
+```
+
 설치가 완료되면 다음과 유사한 메시지가 출력된다:
 
 ```text
