@@ -76,6 +76,14 @@ CAO에서 사용할 기본 에이전트 프로필을 설치한다. 이 명령어
 cao install-profiles
 ```
 
+> CAO 버전에 따라 `install-profiles`가 지원되지 않을 수 있다. 이 경우 각각 설치해주면 된다.
+
+```bash
+cao install code_supervisor
+cao install developer
+cao install reviewer
+```
+
 예상 출력:
 
 ```text
